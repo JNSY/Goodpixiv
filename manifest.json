@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Goodpixiv",
+    "version": "1",
+    "description":"pixivのUIを変更する拡張機能",
+    "content_scripts": [{
+            "matches": ["https://www.pixiv.net/"],
+            "js": ["main.js"]
+    }],
+    
+    "icons": {
+    }
+}
